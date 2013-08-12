@@ -5,12 +5,12 @@ Small Python module/script which allows querying really large XML files using a 
 
 See main() in xpath_sax.py for usage.
 
-This was written for a university project so it is very likely that any more exotic query will fail miserably.
+This was written for a university project so it is very likely that any exotic query will fail miserably.
 
 Commands
 ------
-python xpath_sax.py xml_file query
+    python xpath_sax.py xml_file query
 
 Example
 ------
-python xpath_sax.py example.xml tests/*/test[greeting=hello]
+    python xpath_sax.py example.xml tests/*/test[greeting=hello]
