@@ -1,0 +1,14 @@
+<tests>
+  <a>
+    <test>
+      <greeting>hello</greeting>
+      <farewell>goodbye</farewell>
+    </test>
+  </a>
+  <b>
+    <test>
+      <greeting>bonjour</greeting>
+      <farewell>au revoir</farewell>
+    </test>
+  </b>
+</tests>
