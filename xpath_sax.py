@@ -161,8 +161,6 @@ class XpathPredicateDepth():
 		self.satisfied = False
 	def satisfy(self):
 		self.satisfied = True
-	def __repr__(self):
-		return "XpathPredicateDepth({} = {}, {})".format(self.predicate.tag.name, self.predicate.value, self.depth)
 
 class XpathRetriever(xml.sax.ContentHandler):
 	class SubRetriever():
